@@ -1,0 +1,22 @@
+{
+  "node": {
+    "7f42663eaa6e79d97ff1e5f97ac0ef93c2441bec42": {
+      "workers": {
+        "app/(auth)/mail/page": {
+          "moduleId": "[project]/.next-internal/server/app/(auth)/mail/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        },
+        "app/_not-found/page": {
+          "moduleId": "[project]/.next-internal/server/app/_not-found/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(auth)/mail/page": "action-browser",
+        "app/_not-found/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "T8JV75cj7S1c2t+TMFNaaxwNjFQdtfrcRNMjYiFOgLM="
+}

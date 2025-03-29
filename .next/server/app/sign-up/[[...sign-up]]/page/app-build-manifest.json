@@ -1,0 +1,31 @@
+{
+  "pages": {
+    "/sign-up/[[...sign-up]]/page": [
+      "static/chunks/_8a6a19._.css",
+      "static/chunks/node_modules_next_e69441._.js",
+      "static/chunks/node_modules_framer-motion_dist_es_92139a._.js",
+      "static/chunks/node_modules_@trpc_server_dist_adccfa._.js",
+      "static/chunks/node_modules_@trpc_client_dist_787755._.js",
+      "static/chunks/node_modules_@tanstack_query-core_build_modern_1fb7ca._.js",
+      "static/chunks/node_modules_tailwind-merge_dist_bundle-mjs_mjs_b854ac._.js",
+      "static/chunks/node_modules_@clerk_shared_dist_3f22b8._.js",
+      "static/chunks/node_modules_swr_dist_b28dac._.js",
+      "static/chunks/node_modules_@clerk_clerk-react_dist_467d4d._.js",
+      "static/chunks/node_modules_eb2f48._.js",
+      "static/chunks/src_97e9a2._.js",
+      "static/chunks/src_app_layout_tsx_f60fdc._.js",
+      "static/chunks/_96e8f6._.js",
+      "static/chunks/src_app_sign-up_[[___sign-up]]_page_tsx_ade28e._.js",
+      "static/chunks/node_modules_next_dist_compiled_react_a1d82d._.js",
+      "static/chunks/node_modules_next_dist_compiled_react-dom_cjs_react-dom_development_c9a189.js",
+      "static/chunks/node_modules_next_dist_compiled_react-dom_87a050._.js",
+      "static/chunks/node_modules_next_dist_compiled_e13b54._.js",
+      "static/chunks/node_modules_next_dist_client_8bb71d._.js",
+      "static/chunks/node_modules_next_dist_091837._.js",
+      "static/chunks/node_modules_@swc_helpers_cjs_00636a._.js",
+      "static/chunks/[turbopack]_dev_client_hmr-client_ts_4da20b._.js",
+      "static/chunks/node_modules_next_dist_esm_build_templates_app-page_672a5f.js",
+      "static/chunks/node_modules_next_dist_esm_build_templates_app-page_28024c.js"
+    ]
+  }
+}
