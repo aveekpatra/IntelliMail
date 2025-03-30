@@ -1,5 +1,7 @@
 {
-  "/(auth)/mail/page": "app/(auth)/mail/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/api/trpc/[trpc]/route": "app/api/trpc/[trpc]/route.js"
+  "/api/auth/callback/gmail/route": "app/api/auth/callback/gmail/route.js",
+  "/api/gmail/emails/route": "app/api/gmail/emails/route.js",
+  "/api/initial-sync/route": "app/api/initial-sync/route.js",
+  "/api/trpc/[trpc]/route": "app/api/trpc/[trpc]/route.js",
+  "/mail/page": "app/mail/page.js"
 }

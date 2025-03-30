@@ -585,7 +585,7 @@ function AccountSwitcher({ isCollapsed, accounts, selectedAccount, onAccountSele
                                     children: accounts.find((account)=>account.email === selectedAccountState)?.label
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                    lineNumber: 88,
+                                    lineNumber: 91,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -611,12 +611,12 @@ function AccountSwitcher({ isCollapsed, accounts, selectedAccount, onAccountSele
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                        lineNumber: 99,
+                                        lineNumber: 103,
                                         columnNumber: 15
                                     }, this)
                                 }, account.email, false, {
                                     fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                    lineNumber: 98,
+                                    lineNumber: 102,
                                     columnNumber: 13
                                 }, this)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -629,31 +629,31 @@ function AccountSwitcher({ isCollapsed, accounts, selectedAccount, onAccountSele
                                             className: "mr-2 h-4 w-4"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                            lineNumber: 110,
+                                            lineNumber: 114,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: "Connect another account"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                            lineNumber: 111,
+                                            lineNumber: 115,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                    lineNumber: 106,
+                                    lineNumber: 110,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                lineNumber: 105,
+                                lineNumber: 109,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                        lineNumber: 96,
+                        lineNumber: 100,
                         columnNumber: 9
                     }, this)
                 ]
@@ -674,20 +674,20 @@ function AccountSwitcher({ isCollapsed, accounts, selectedAccount, onAccountSele
                                     children: "Connect Email Account"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                    lineNumber: 120,
+                                    lineNumber: 124,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$dialog$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DialogDescription"], {
                                     children: "Add a new email account to manage in Lumi."
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                    lineNumber: 121,
+                                    lineNumber: 125,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                            lineNumber: 119,
+                            lineNumber: 123,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Tabs"], {
@@ -702,7 +702,7 @@ function AccountSwitcher({ isCollapsed, accounts, selectedAccount, onAccountSele
                                             children: "Gmail"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                            lineNumber: 128,
+                                            lineNumber: 132,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsTrigger"], {
@@ -710,7 +710,7 @@ function AccountSwitcher({ isCollapsed, accounts, selectedAccount, onAccountSele
                                             children: "Outlook"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                            lineNumber: 129,
+                                            lineNumber: 133,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsTrigger"], {
@@ -718,13 +718,13 @@ function AccountSwitcher({ isCollapsed, accounts, selectedAccount, onAccountSele
                                             children: "IMAP"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                            lineNumber: 130,
+                                            lineNumber: 134,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                    lineNumber: 127,
+                                    lineNumber: 131,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsContent"], {
@@ -737,7 +737,7 @@ function AccountSwitcher({ isCollapsed, accounts, selectedAccount, onAccountSele
                                                 className: "h-12 w-12 text-primary"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                                lineNumber: 135,
+                                                lineNumber: 139,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -745,7 +745,7 @@ function AccountSwitcher({ isCollapsed, accounts, selectedAccount, onAccountSele
                                                 children: "Connect Gmail"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                                lineNumber: 136,
+                                                lineNumber: 140,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -753,39 +753,51 @@ function AccountSwitcher({ isCollapsed, accounts, selectedAccount, onAccountSele
                                                 children: "Securely connect your Gmail account to Lumi"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                                lineNumber: 137,
+                                                lineNumber: 141,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "w-full inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2",
-                                                onClick: ()=>{
-                                                    // Replace with your actual Gmail OAuth implementation
-                                                    window.location.href = "/api/aurinko/connect?serviceType=Google";
+                                                className: "inline-flex h-10 w-full items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground ring-offset-background transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50",
+                                                onClick: async ()=>{
+                                                    try {
+                                                        console.log("Gmail connect button clicked");
+                                                        // Use our direct Gmail API integration
+                                                        const authUrl = await getGmailAuthUrl();
+                                                        console.log("Got Gmail auth URL:", authUrl);
+                                                        window.location.href = authUrl;
+                                                    } catch (error) {
+                                                        console.error("Error starting Gmail auth:", error);
+                                                        if (error instanceof Error) {
+                                                            alert(error.message);
+                                                        } else {
+                                                            alert("Failed to start Gmail authentication");
+                                                        }
+                                                    }
                                                 },
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$log$2d$in$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__LogIn$3e$__["LogIn"], {
                                                         className: "mr-2 h-4 w-4"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                                        lineNumber: 148,
+                                                        lineNumber: 163,
                                                         columnNumber: 19
                                                     }, this),
                                                     "Connect Gmail Account"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                                lineNumber: 140,
+                                                lineNumber: 144,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                        lineNumber: 134,
+                                        lineNumber: 138,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                    lineNumber: 133,
+                                    lineNumber: 137,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsContent"], {
@@ -798,7 +810,7 @@ function AccountSwitcher({ isCollapsed, accounts, selectedAccount, onAccountSele
                                                 className: "h-12 w-12 text-primary"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                                lineNumber: 156,
+                                                lineNumber: 171,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -806,7 +818,7 @@ function AccountSwitcher({ isCollapsed, accounts, selectedAccount, onAccountSele
                                                 children: "Connect Outlook"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                                lineNumber: 157,
+                                                lineNumber: 172,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -814,11 +826,11 @@ function AccountSwitcher({ isCollapsed, accounts, selectedAccount, onAccountSele
                                                 children: "Securely connect your Outlook account to Lumi"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                                lineNumber: 158,
+                                                lineNumber: 173,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "w-full inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2",
+                                                className: "inline-flex h-10 w-full items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground ring-offset-background transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50",
                                                 onClick: ()=>{
                                                     // Replace with your actual Outlook OAuth implementation
                                                     window.location.href = "/api/aurinko/connect?serviceType=Office365";
@@ -828,25 +840,25 @@ function AccountSwitcher({ isCollapsed, accounts, selectedAccount, onAccountSele
                                                         className: "mr-2 h-4 w-4"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                                        lineNumber: 169,
+                                                        lineNumber: 184,
                                                         columnNumber: 19
                                                     }, this),
                                                     "Connect Outlook Account"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                                lineNumber: 161,
+                                                lineNumber: 176,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                        lineNumber: 155,
+                                        lineNumber: 170,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                    lineNumber: 154,
+                                    lineNumber: 169,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsContent"], {
@@ -860,7 +872,7 @@ function AccountSwitcher({ isCollapsed, accounts, selectedAccount, onAccountSele
                                                 children: "Connect via IMAP"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                                lineNumber: 177,
+                                                lineNumber: 192,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -875,7 +887,7 @@ function AccountSwitcher({ isCollapsed, accounts, selectedAccount, onAccountSele
                                                                 children: "Email"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                                                lineNumber: 180,
+                                                                lineNumber: 195,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -884,13 +896,13 @@ function AccountSwitcher({ isCollapsed, accounts, selectedAccount, onAccountSele
                                                                 placeholder: "your.email@example.com"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                                                lineNumber: 183,
+                                                                lineNumber: 198,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                                        lineNumber: 179,
+                                                        lineNumber: 194,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -902,7 +914,7 @@ function AccountSwitcher({ isCollapsed, accounts, selectedAccount, onAccountSele
                                                                 children: "Password"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                                                lineNumber: 190,
+                                                                lineNumber: 205,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -911,13 +923,13 @@ function AccountSwitcher({ isCollapsed, accounts, selectedAccount, onAccountSele
                                                                 className: "col-span-3"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                                                lineNumber: 193,
+                                                                lineNumber: 208,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                                        lineNumber: 189,
+                                                        lineNumber: 204,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -929,7 +941,7 @@ function AccountSwitcher({ isCollapsed, accounts, selectedAccount, onAccountSele
                                                                 children: "IMAP Server"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                                                lineNumber: 196,
+                                                                lineNumber: 215,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -938,13 +950,13 @@ function AccountSwitcher({ isCollapsed, accounts, selectedAccount, onAccountSele
                                                                 placeholder: "imap.example.com"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                                                lineNumber: 199,
+                                                                lineNumber: 218,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                                        lineNumber: 195,
+                                                        lineNumber: 214,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -956,7 +968,7 @@ function AccountSwitcher({ isCollapsed, accounts, selectedAccount, onAccountSele
                                                                 children: "Port"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                                                lineNumber: 206,
+                                                                lineNumber: 225,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -965,64 +977,64 @@ function AccountSwitcher({ isCollapsed, accounts, selectedAccount, onAccountSele
                                                                 placeholder: "993"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                                                lineNumber: 209,
+                                                                lineNumber: 228,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                                        lineNumber: 205,
+                                                        lineNumber: 224,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                                lineNumber: 178,
+                                                lineNumber: 193,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "mt-4 w-full inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2",
+                                                className: "mt-4 inline-flex h-10 w-full items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground ring-offset-background transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$log$2d$in$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__LogIn$3e$__["LogIn"], {
                                                         className: "mr-2 h-4 w-4"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                                        lineNumber: 219,
+                                                        lineNumber: 236,
                                                         columnNumber: 19
                                                     }, this),
                                                     "Connect IMAP Account"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                                lineNumber: 216,
+                                                lineNumber: 235,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                        lineNumber: 176,
+                                        lineNumber: 191,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                                    lineNumber: 175,
+                                    lineNumber: 190,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                            lineNumber: 126,
+                            lineNumber: 130,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                    lineNumber: 118,
+                    lineNumber: 122,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/mail/components/account-switcher.tsx",
-                lineNumber: 117,
+                lineNumber: 121,
                 columnNumber: 7
             }, this)
         ]

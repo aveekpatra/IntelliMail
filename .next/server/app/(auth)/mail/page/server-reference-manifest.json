@@ -3,7 +3,95 @@
     "7f42663eaa6e79d97ff1e5f97ac0ef93c2441bec42": {
       "workers": {
         "app/(auth)/mail/page": {
-          "moduleId": "[project]/.next-internal/server/app/(auth)/mail/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "moduleId": "[project]/.next-internal/server/app/(auth)/mail/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/gmail.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/mail/components/email-editor/action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(auth)/mail/page": "action-browser"
+      }
+    },
+    "60e0892b6c1bd69f12770b84151506cf7e9e1b6b18": {
+      "workers": {
+        "app/(auth)/mail/page": {
+          "moduleId": "[project]/.next-internal/server/app/(auth)/mail/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/gmail.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/mail/components/email-editor/action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(auth)/mail/page": "action-browser"
+      }
+    },
+    "7f0a51e9459e744f8374ca86c6219119bbff6231bc": {
+      "workers": {
+        "app/(auth)/mail/page": {
+          "moduleId": "[project]/.next-internal/server/app/(auth)/mail/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/gmail.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/mail/components/email-editor/action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(auth)/mail/page": "action-browser"
+      }
+    },
+    "7f295ac5076a92fec22a9400c18ee6e58cff1d8191": {
+      "workers": {
+        "app/(auth)/mail/page": {
+          "moduleId": "[project]/.next-internal/server/app/(auth)/mail/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/gmail.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/mail/components/email-editor/action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(auth)/mail/page": "action-browser"
+      }
+    },
+    "7f664bb80837f6f53695699a0cafa28c178caf835c": {
+      "workers": {
+        "app/(auth)/mail/page": {
+          "moduleId": "[project]/.next-internal/server/app/(auth)/mail/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/gmail.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/mail/components/email-editor/action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(auth)/mail/page": "action-browser"
+      }
+    },
+    "7f6f4975cfd7867cb73e66a7020dcba96a8eab7865": {
+      "workers": {
+        "app/(auth)/mail/page": {
+          "moduleId": "[project]/.next-internal/server/app/(auth)/mail/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/gmail.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/mail/components/email-editor/action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(auth)/mail/page": "action-browser"
+      }
+    },
+    "7fb4c53f85c94fb1372c295a82e63f8074da798e2b": {
+      "workers": {
+        "app/(auth)/mail/page": {
+          "moduleId": "[project]/.next-internal/server/app/(auth)/mail/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/gmail.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/mail/components/email-editor/action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(auth)/mail/page": "action-browser"
+      }
+    },
+    "40d41d8396bd04135ee66e05924e633e212ad29e53": {
+      "workers": {
+        "app/(auth)/mail/page": {
+          "moduleId": "[project]/.next-internal/server/app/(auth)/mail/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/gmail.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/mail/components/email-editor/action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(auth)/mail/page": "action-browser"
+      }
+    },
+    "60288b6878b1b1e1937d47823e471a62b74c3cf3f3": {
+      "workers": {
+        "app/(auth)/mail/page": {
+          "moduleId": "[project]/.next-internal/server/app/(auth)/mail/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/gmail.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/src/app/mail/components/email-editor/action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false
         }
       },

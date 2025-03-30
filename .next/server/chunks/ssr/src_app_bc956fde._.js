@@ -64,9 +64,11 @@ const metadata = {
     description: "Example mail app built with shadcn/ui components"
 };
 async function MailPage() {
-    // Read cookies on the server side
-    const layout = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$headers$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["cookies"])().get("react-resizable-panels:layout:mail");
-    const collapsed = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$headers$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["cookies"])().get("react-resizable-panels:collapsed");
+    // First await the cookies() function itself
+    const cookiesStore = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$headers$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["cookies"])();
+    // Then get values from the cookie store
+    const layout = cookiesStore.get("react-resizable-panels:layout:mail");
+    const collapsed = cookiesStore.get("react-resizable-panels:collapsed");
     // Parse the layout from cookies
     let defaultLayout = undefined;
     try {
@@ -88,12 +90,12 @@ async function MailPage() {
                     defaultCollapsed: defaultCollapsed
                 }, void 0, false, {
                     fileName: "[project]/src/app/(auth)/mail/page.tsx",
-                    lineNumber: 30,
+                    lineNumber: 33,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/(auth)/mail/page.tsx",
-                lineNumber: 29,
+                lineNumber: 32,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -102,18 +104,18 @@ async function MailPage() {
                     children: "Mail interface not available on mobile devices."
                 }, void 0, false, {
                     fileName: "[project]/src/app/(auth)/mail/page.tsx",
-                    lineNumber: 36,
+                    lineNumber: 39,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/(auth)/mail/page.tsx",
-                lineNumber: 35,
+                lineNumber: 38,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/(auth)/mail/page.tsx",
-        lineNumber: 28,
+        lineNumber: 31,
         columnNumber: 5
     }, this);
 }

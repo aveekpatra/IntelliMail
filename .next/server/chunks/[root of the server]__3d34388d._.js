@@ -190,10 +190,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$clerk$2f$n
 ;
 const createTRPCContext = async (opts)=>{
     const user = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$clerk$2f$nextjs$2f$dist$2f$esm$2f$app$2d$router$2f$server$2f$auth$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["auth"])();
+    // Don't spread opts directly to avoid headers iteration issues
     return {
         auth: user,
         db: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$server$2f$db$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["db"],
-        ...opts
+        headers: opts.headers
     };
 };
 /**
@@ -1877,6 +1878,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$server$2f$api$2f$trpc
  * This wraps the `createTRPCContext` helper and provides the required context for the tRPC API when
  * handling a HTTP request (e.g. when you make requests from Client Components).
  */ const createContext = async (req)=>{
+    // Extract only the needed headers to avoid iteration
     return (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$server$2f$api$2f$trpc$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["createTRPCContext"])({
         headers: req.headers
     });
@@ -1885,7 +1887,7 @@ const handler = async (req)=>(0, __TURBOPACK__imported__module__$5b$project$5d2f
         endpoint: "/api/trpc",
         req,
         router: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$server$2f$api$2f$root$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["appRouter"],
-        createContext: async ()=>await createContext(req),
+        createContext: ()=>createContext(req),
         onError: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$env$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["env"].NODE_ENV === "development" ? ({ path, error })=>{
             console.error(`❌ tRPC failed on ${path ?? "<no-path>"}: ${error.message}`);
         } : undefined

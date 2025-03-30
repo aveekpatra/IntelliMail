@@ -30,6 +30,10 @@ import { MailList } from "./mail-list";
 import { Nav } from "./nav";
 import { type Mail as MailType } from "../data";
 import { useMail } from "../use-mail";
+import { ThreadList } from "./thread-list";
+import { ThreadDisplay } from "./thread-display";
+import { GmailMailList } from "./gmail-mail-list";
+import { GmailMailDisplay } from "./gmail-mail-display";
 
 interface MailProps {
   accounts: {
@@ -41,6 +45,8 @@ interface MailProps {
   defaultLayout: number[] | undefined;
   defaultCollapsed?: boolean;
   navCollapsedSize: number;
+  useRealEmails?: boolean;
+  useGmailEmails?: boolean;
 }
 
 export function Mail({
@@ -49,6 +55,8 @@ export function Mail({
   defaultLayout = [20, 32, 48],
   defaultCollapsed = false,
   navCollapsedSize,
+  useRealEmails = false,
+  useGmailEmails = true,
 }: MailProps) {
   const [isCollapsed, setIsCollapsed] = React.useState(defaultCollapsed);
   const [mail] = useMail();
@@ -206,12 +214,20 @@ export function Mail({
                 </div>
               </form>
             </div>
-            <TabsContent value="all" className="m-0">
-              <MailList items={mails} />
-            </TabsContent>
-            <TabsContent value="unread" className="m-0">
-              <MailList items={mails.filter((item) => !item.read)} />
-            </TabsContent>
+            {useGmailEmails ? (
+              <GmailMailList />
+            ) : useRealEmails ? (
+              <ThreadList />
+            ) : (
+              <>
+                <TabsContent value="all" className="m-0">
+                  <MailList items={mails} />
+                </TabsContent>
+                <TabsContent value="unread" className="m-0">
+                  <MailList items={mails.filter((item) => !item.read)} />
+                </TabsContent>
+              </>
+            )}
           </Tabs>
         </ResizablePanel>
         <ResizableHandle withHandle />
@@ -220,9 +236,15 @@ export function Mail({
           minSize={30}
           className="flex-1"
         >
-          <MailDisplay
-            mail={mails.find((item) => item.id === mail.selected) || null}
-          />
+          {useGmailEmails ? (
+            <GmailMailDisplay />
+          ) : useRealEmails ? (
+            <ThreadDisplay />
+          ) : (
+            <MailDisplay
+              mail={mails.find((item) => item.id === mail.selected) || null}
+            />
+          )}
         </ResizablePanel>
       </ResizablePanelGroup>
     </TooltipProvider>

@@ -4,7 +4,8 @@ import { db } from "@/server/db";
 import { cookies } from "next/headers";
 
 export async function GET(request: Request) {
-  const userId = await cookies().get("userId")?.value;
+  const cookieStore = await cookies();
+  const userId = cookieStore.get("userId")?.value;
   if (!userId) {
     return NextResponse.json({ error: "No user ID found" }, { status: 400 });
   }

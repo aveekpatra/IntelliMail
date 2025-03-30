@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 19, "column": 0}, "map": {"version":3,"sources":["file:///Users/aveekpatra/Coding/lumi/src/app/%28auth%29/settings/profile/page.tsx"],"sourcesContent":["export const metadata = {\n  title: \"Profile - Lumi\",\n  description: \"Manage your profile\",\n};\n\nexport default function ProfilePage() {\n  return (\n    <div>\n      <h1 className=\"mb-6 text-2xl font-bold\">Profile Settings</h1>\n      <p className=\"text-muted-foreground\">\n        Profile settings will be available soon.\n      </p>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAAO,MAAM,WAAW;IACtB,OAAO;IACP,aAAa;AACf;AAEe,SAAS;IACtB,qBACE,8OAAC;;0BACC,8OAAC;gBAAG,WAAU;0BAA0B;;;;;;0BACxC,8OAAC;gBAAE,WAAU;0BAAwB;;;;;;;;;;;;AAK3C","debugId":null}}]
+}

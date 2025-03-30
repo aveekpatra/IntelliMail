@@ -1,9 +1,6 @@
 {
   "app": {
-    "[project]/src/app/(auth)/mail/page": [
-      "static/media/Geist_Variable-s.p.781b491f.woff2"
-    ],
-    "[project]/src/app/_not-found/page": [
+    "[project]/src/app/mail/page": [
       "static/media/Geist_Variable-s.p.781b491f.woff2"
     ]
   },

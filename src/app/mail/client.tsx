@@ -7,11 +7,15 @@ import Image from "next/image";
 interface MailClientProps {
   defaultLayout?: number[];
   defaultCollapsed?: boolean;
+  useRealEmails?: boolean;
+  useGmailEmails?: boolean;
 }
 
 export default function MailClient({
   defaultLayout,
   defaultCollapsed,
+  useRealEmails = false,
+  useGmailEmails = true,
 }: MailClientProps) {
   return (
     <>
@@ -38,6 +42,8 @@ export default function MailClient({
           defaultLayout={defaultLayout}
           defaultCollapsed={defaultCollapsed}
           navCollapsedSize={4}
+          useRealEmails={useRealEmails}
+          useGmailEmails={useGmailEmails}
         />
       </div>
     </>

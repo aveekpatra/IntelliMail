@@ -1,8 +1,9 @@
 "use client";
 
 import * as React from "react";
-import { PlusCircle, Mail, LogIn } from "lucide-react";
+import { PlusCircle, Mail, LogIn, Trash2 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { getGmailAuthUrl } from "@/lib/gmail";
 import {
   Select,
   SelectContent,
@@ -67,11 +68,11 @@ export function AccountSwitcher({
 
   return (
     <>
-      <Select 
-        value={selectedAccountState} 
+      <Select
+        value={selectedAccountState}
         onValueChange={(value) => {
           setSelectedAccountState(value);
-          const account = accounts.find(acc => acc.email === value);
+          const account = accounts.find((acc) => acc.email === value);
           if (account) onAccountSelect?.(account);
         }}
       >
@@ -79,16 +80,20 @@ export function AccountSwitcher({
           className={cn(
             "flex items-center gap-2 [&>span]:line-clamp-1 [&>span]:flex [&>span]:w-full [&>span]:items-center [&>span]:gap-1 [&>span]:truncate [&_svg]:h-4 [&_svg]:w-4 [&_svg]:shrink-0",
             isCollapsed &&
-              "flex h-9 w-9 shrink-0 items-center justify-center p-0 [&>span]:w-auto [&>svg]:hidden"
+              "flex h-9 w-9 shrink-0 items-center justify-center p-0 [&>span]:w-auto [&>svg]:hidden",
           )}
           aria-label="Select account"
         >
           <SelectValue placeholder="Select an account">
-            {accounts.find((account) => account.email === selectedAccountState)?.icon}
+            {
+              accounts.find((account) => account.email === selectedAccountState)
+                ?.icon
+            }
             <span className={cn("ml-2", isCollapsed && "hidden")}>
               {
-                accounts.find((account) => account.email === selectedAccountState)
-                  ?.label
+                accounts.find(
+                  (account) => account.email === selectedAccountState,
+                )?.label
               }
             </span>
           </SelectValue>
@@ -109,6 +114,13 @@ export function AccountSwitcher({
             >
               <PlusCircle className="mr-2 h-4 w-4" />
               <span>Connect another account</span>
+            </div>
+            <div
+              className="flex cursor-pointer items-center rounded-sm px-1 py-1.5 text-sm outline-none hover:bg-accent"
+              onClick={() => (window.location.href = "/settings/accounts")}
+            >
+              <Trash2 className="mr-2 h-4 w-4" />
+              <span>Manage accounts</span>
             </div>
           </div>
         </SelectContent>
@@ -138,11 +150,22 @@ export function AccountSwitcher({
                   Securely connect your Gmail account to Lumi
                 </p>
                 <button
-                  className="w-full inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2"
-                  onClick={() => {
-                    // Replace with your actual Gmail OAuth implementation
-                    window.location.href =
-                      "/api/aurinko/connect?serviceType=Google";
+                  className="inline-flex h-10 w-full items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground ring-offset-background transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                  onClick={async () => {
+                    try {
+                      console.log("Gmail connect button clicked");
+                      // Use our direct Gmail API integration
+                      const authUrl = await getGmailAuthUrl();
+                      console.log("Got Gmail auth URL:", authUrl);
+                      window.location.href = authUrl;
+                    } catch (error) {
+                      console.error("Error starting Gmail auth:", error);
+                      if (error instanceof Error) {
+                        alert(error.message);
+                      } else {
+                        alert("Failed to start Gmail authentication");
+                      }
+                    }
                   }}
                 >
                   <LogIn className="mr-2 h-4 w-4" />
@@ -159,7 +182,7 @@ export function AccountSwitcher({
                   Securely connect your Outlook account to Lumi
                 </p>
                 <button
-                  className="w-full inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2"
+                  className="inline-flex h-10 w-full items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground ring-offset-background transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
                   onClick={() => {
                     // Replace with your actual Outlook OAuth implementation
                     window.location.href =
@@ -190,7 +213,11 @@ export function AccountSwitcher({
                     <Label htmlFor="password" className="text-right">
                       Password
                     </Label>
-                    <Input id="password" type="password" className="col-span-3" />
+                    <Input
+                      id="password"
+                      type="password"
+                      className="col-span-3"
+                    />
                   </div>
                   <div className="grid grid-cols-4 items-center gap-4">
                     <Label htmlFor="imap-server" className="text-right">
@@ -213,9 +240,7 @@ export function AccountSwitcher({
                     />
                   </div>
                 </div>
-                <button
-                  className="mt-4 w-full inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2"
-                >
+                <button className="mt-4 inline-flex h-10 w-full items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground ring-offset-background transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50">
                   <LogIn className="mr-2 h-4 w-4" />
                   Connect IMAP Account
                 </button>

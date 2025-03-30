@@ -10,6 +10,7 @@ import { createTRPCContext } from "@/server/api/trpc";
  * handling a HTTP request (e.g. when you make requests from Client Components).
  */
 const createContext = async (req: NextRequest) => {
+  // Extract only the needed headers to avoid iteration
   return createTRPCContext({
     headers: req.headers,
   });
@@ -20,7 +21,7 @@ const handler = async (req: NextRequest) =>
     endpoint: "/api/trpc",
     req,
     router: appRouter,
-    createContext: async () => await createContext(req),
+    createContext: () => createContext(req),
     onError:
       env.NODE_ENV === "development"
         ? ({ path, error }) => {
