@@ -164,7 +164,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$di
 ;
 ;
 const metadata = {
-    title: "Normal Human",
+    title: "Lumi",
     icons: [
         {
             rel: "icon",

@@ -471,14 +471,14 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$usehooks$2d$
 ;
 const useThreads = ()=>{
     const { data: accounts } = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$trpc$2f$react$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["api"].mail.getAccounts.useQuery();
-    const [accountId] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$usehooks$2d$ts$2f$dist$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useLocalStorage"])('accountId', '');
-    const [tab] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$usehooks$2d$ts$2f$dist$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useLocalStorage"])('normalhuman-tab', 'inbox');
-    const [done] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$usehooks$2d$ts$2f$dist$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useLocalStorage"])('normalhuman-done', false);
+    const [accountId] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$usehooks$2d$ts$2f$dist$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useLocalStorage"])("accountId", "");
+    const [tab] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$usehooks$2d$ts$2f$dist$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useLocalStorage"])("lumi-tab", "inbox");
+    const [done] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$usehooks$2d$ts$2f$dist$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useLocalStorage"])("lumi-done", false);
     const queryKey = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$trpc$2f$react$2d$query$2f$dist$2f$internals$2f$getQueryKey$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["getQueryKey"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$trpc$2f$react$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["api"].mail.getThreads, {
         accountId,
         tab,
         done
-    }, 'query');
+    }, "query");
     const { data: threads, isFetching, refetch } = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$trpc$2f$react$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["api"].mail.getThreads.useQuery({
         accountId,
         done,
@@ -671,7 +671,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$mail$2f$compon
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$jotai$2f$esm$2f$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/jotai/esm/react.mjs [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$mail$2f$components$2f$search$2d$bar$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/app/mail/components/search-bar.tsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$mail$2f$use$2d$thread$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/app/mail/use-thread.ts [app-ssr] (ecmascript)");
-'use client';
+"use client";
 ;
 ;
 ;
@@ -683,58 +683,58 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$mail$2f$use$2d
 ;
 function KBar({ children }) {
     const [isSearching, setIsSearching] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$jotai$2f$esm$2f$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useAtom"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$mail$2f$components$2f$search$2d$bar$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["isSearchingAtom"]);
-    const [_, setTab] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$usehooks$2d$ts$2f$dist$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useLocalStorage"])(`normalhuman-tab`, 'inbox');
+    const [_, setTab] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$usehooks$2d$ts$2f$dist$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useLocalStorage"])(`lumi-tab`, "inbox");
     const [threadId, setThreadId] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$mail$2f$use$2d$thread$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useThread"])();
-    const [done, setDone] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$usehooks$2d$ts$2f$dist$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useLocalStorage"])('normalhuman-done', false);
+    const [done, setDone] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$usehooks$2d$ts$2f$dist$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useLocalStorage"])("lumi-done", false);
     const actions = [
         {
             id: "inboxAction",
             name: "Inbox",
             shortcut: [
                 "g",
-                'i'
+                "i"
             ],
             keywords: "inbox",
             section: "Navigation",
             subtitle: "View your inbox",
             perform: ()=>{
-                setTab('inbox');
+                setTab("inbox");
             }
         },
         {
             id: "draftsAction",
             name: "Drafts",
             shortcut: [
-                'g',
-                'd'
+                "g",
+                "d"
             ],
             keywords: "drafts",
             priority: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$kbar$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Priority"].HIGH,
             subtitle: "View your drafts",
             section: "Navigation",
             perform: ()=>{
-                setTab('drafts');
+                setTab("drafts");
             }
         },
         {
             id: "sentAction",
             name: "Sent",
             shortcut: [
-                'g',
+                "g",
                 "s"
             ],
             keywords: "sent",
             section: "Navigation",
             subtitle: "View the sent",
             perform: ()=>{
-                setTab('sent');
+                setTab("sent");
             }
         },
         {
             id: "pendingAction",
             name: "See done",
             shortcut: [
-                'g',
+                "g",
                 "d"
             ],
             keywords: "done",
@@ -748,10 +748,10 @@ function KBar({ children }) {
             id: "doneAction",
             name: "See Pending",
             shortcut: [
-                'g',
+                "g",
                 "u"
             ],
-            keywords: 'pending, undone, not done',
+            keywords: "pending, undone, not done",
             section: "Navigation",
             subtitle: "View the pending emails",
             perform: ()=>{
@@ -765,13 +765,13 @@ function KBar({ children }) {
             children: children
         }, void 0, false, {
             fileName: "[project]/src/app/mail/components/kbar/index.tsx",
-            lineNumber: 89,
-            columnNumber: 13
+            lineNumber: 87,
+            columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/mail/components/kbar/index.tsx",
-        lineNumber: 88,
-        columnNumber: 9
+        lineNumber: 86,
+        columnNumber: 5
     }, this);
 }
 const ActualComponent = ({ children })=>{
@@ -781,51 +781,51 @@ const ActualComponent = ({ children })=>{
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$kbar$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["KBarPortal"], {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$kbar$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["KBarPositioner"], {
-                    className: "fixed inset-0 bg-black/40 dark:bg-black/60 backdrop-blur-sm scrollbar-hide !p-0 z-[99999]",
+                    className: "scrollbar-hide fixed inset-0 z-[99999] bg-black/40 !p-0 backdrop-blur-sm dark:bg-black/60",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$kbar$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["KBarAnimator"], {
-                        className: "max-w-[600px] !mt-64 w-full bg-white dark:bg-gray-800 text-foreground dark:text-gray-200 shadow-lg border dark:border-gray-700 rounded-lg overflow-hidden relative !-translate-y-12",
+                        className: "relative !mt-64 w-full max-w-[600px] !-translate-y-12 overflow-hidden rounded-lg border bg-white text-foreground shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "bg-white dark:bg-gray-800",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "border-x-0 border-b-2 dark:border-gray-700",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$kbar$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["KBarSearch"], {
-                                        className: "py-4 px-6 text-lg w-full bg-white dark:bg-gray-800 outline-none border-none focus:outline-none focus:ring-0 focus:ring-offset-0"
+                                        className: "w-full border-none bg-white px-6 py-4 text-lg outline-none focus:outline-none focus:ring-0 focus:ring-offset-0 dark:bg-gray-800"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/mail/components/kbar/index.tsx",
-                                        lineNumber: 108,
-                                        columnNumber: 33
+                                        lineNumber: 102,
+                                        columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/mail/components/kbar/index.tsx",
-                                    lineNumber: 107,
-                                    columnNumber: 29
+                                    lineNumber: 101,
+                                    columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$mail$2f$components$2f$kbar$2f$RenderResult$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                     fileName: "[project]/src/app/mail/components/kbar/index.tsx",
-                                    lineNumber: 110,
-                                    columnNumber: 29
+                                    lineNumber: 104,
+                                    columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/mail/components/kbar/index.tsx",
-                            lineNumber: 106,
-                            columnNumber: 25
+                            lineNumber: 100,
+                            columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/mail/components/kbar/index.tsx",
-                        lineNumber: 105,
-                        columnNumber: 21
+                        lineNumber: 99,
+                        columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/mail/components/kbar/index.tsx",
-                    lineNumber: 104,
-                    columnNumber: 17
+                    lineNumber: 98,
+                    columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/mail/components/kbar/index.tsx",
-                lineNumber: 103,
-                columnNumber: 13
+                lineNumber: 97,
+                columnNumber: 7
             }, this),
             children
         ]

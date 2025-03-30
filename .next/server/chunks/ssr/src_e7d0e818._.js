@@ -2551,7 +2551,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$usehooks$2d$
 ;
 ;
 function Nav({ links, isCollapsed }) {
-    const [_, setTab] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$usehooks$2d$ts$2f$dist$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useLocalStorage"])("normalhuman-tab", "inbox");
+    const [_, setTab] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$usehooks$2d$ts$2f$dist$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useLocalStorage"])("lumi-tab", "inbox");
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         "data-collapsed": isCollapsed,
         className: "group flex flex-col gap-4 py-2 data-[collapsed=true]:py-2",
@@ -2936,6 +2936,24 @@ function Mail({ accounts, mails, defaultLayout = [
                                                 fileName: "[project]/src/app/mail/components/mail.tsx",
                                                 lineNumber: 202,
                                                 columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("kbd", {
+                                                className: "pointer-events-none absolute right-2 top-2 hidden h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "text-xs",
+                                                        children: "⌘"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/app/mail/components/mail.tsx",
+                                                        lineNumber: 204,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    "K"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/app/mail/components/mail.tsx",
+                                                lineNumber: 203,
+                                                columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
@@ -2960,12 +2978,12 @@ function Mail({ accounts, mails, defaultLayout = [
                                     items: mails
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/mail/components/mail.tsx",
-                                    lineNumber: 207,
+                                    lineNumber: 210,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/mail/components/mail.tsx",
-                                lineNumber: 206,
+                                lineNumber: 209,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsContent"], {
@@ -2975,12 +2993,12 @@ function Mail({ accounts, mails, defaultLayout = [
                                     items: mails.filter((item)=>!item.read)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/mail/components/mail.tsx",
-                                    lineNumber: 210,
+                                    lineNumber: 213,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/mail/components/mail.tsx",
-                                lineNumber: 209,
+                                lineNumber: 212,
                                 columnNumber: 13
                             }, this)
                         ]
@@ -2998,7 +3016,7 @@ function Mail({ accounts, mails, defaultLayout = [
                     withHandle: true
                 }, void 0, false, {
                     fileName: "[project]/src/app/mail/components/mail.tsx",
-                    lineNumber: 214,
+                    lineNumber: 217,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$resizable$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ResizablePanel"], {
@@ -3009,12 +3027,12 @@ function Mail({ accounts, mails, defaultLayout = [
                         mail: mails.find((item)=>item.id === mail.selected) || null
                     }, void 0, false, {
                         fileName: "[project]/src/app/mail/components/mail.tsx",
-                        lineNumber: 220,
+                        lineNumber: 223,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/mail/components/mail.tsx",
-                    lineNumber: 215,
+                    lineNumber: 218,
                     columnNumber: 9
                 }, this)
             ]

@@ -2,7 +2,7 @@ import { cookies } from "next/headers";
 import MailClient from "@/app/mail/client";
 
 export const metadata = {
-  title: "Mail - shadcn/ui",
+  title: "Mail - Lumi",
   description: "Example mail app built with shadcn/ui components",
 };
 

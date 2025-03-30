@@ -1881,11 +1881,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$server$2f$api$2f$trpc
         headers: req.headers
     });
 };
-const handler = (req)=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$trpc$2f$server$2f$dist$2f$adapters$2f$fetch$2f$fetchRequestHandler$2e$mjs__$5b$app$2d$route$5d$__$28$ecmascript$29$__["fetchRequestHandler"])({
+const handler = async (req)=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$trpc$2f$server$2f$dist$2f$adapters$2f$fetch$2f$fetchRequestHandler$2e$mjs__$5b$app$2d$route$5d$__$28$ecmascript$29$__["fetchRequestHandler"])({
         endpoint: "/api/trpc",
         req,
         router: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$server$2f$api$2f$root$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["appRouter"],
-        createContext: ()=>createContext(req),
+        createContext: async ()=>await createContext(req),
         onError: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$env$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["env"].NODE_ENV === "development" ? ({ path, error })=>{
             console.error(`❌ tRPC failed on ${path ?? "<no-path>"}: ${error.message}`);
         } : undefined

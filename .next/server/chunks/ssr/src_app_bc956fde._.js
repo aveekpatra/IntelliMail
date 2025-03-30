@@ -60,7 +60,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$mail$2f$client
 ;
 ;
 const metadata = {
-    title: "Mail - shadcn/ui",
+    title: "Mail - Lumi",
     description: "Example mail app built with shadcn/ui components"
 };
 async function MailPage() {
