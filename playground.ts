@@ -1,7 +1,7 @@
 const addressesToUpsert = new Map()
 const email = {
-    from: { address: 'elliott@useincubate.com', name: 'Elliott Chong' },
-    to: [{ address: 'gmansoor@technologyrivers.com', name: 'Ghazenfer Mansoor' }],
+    from: { address: 'aveekpatra2004@gmail.com', name: 'Aveek Patra' },
+    to: [{ address: 'aveekpatra@protonmail.com', name: 'Aveek Patra' }],
     cc: [],
     bcc: [],
     replyTo: [],
